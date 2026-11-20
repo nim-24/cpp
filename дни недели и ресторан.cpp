@@ -1,7 +1,10 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
-
-int main() {
+int main()
+{
+    SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
     int day;
     cout << "Введите число от 1 до 7: ";
     cin >> day;
@@ -37,9 +40,12 @@ int main() {
 }
 
 #include <iostream>
+#include <windows.h>
 using namespace std;
-
-int main() {
+int main()
+{
+    SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
     int choice;
     cout << "Меню ресторана"<< endl;
     cout << "1 — Пицца" << endl;
