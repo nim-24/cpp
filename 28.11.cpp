@@ -1,5 +1,6 @@
 #include <iostream> 
 #include <windows.h>
+#include <string>
 using namespace std;
 int main()
 {
@@ -17,9 +18,22 @@ int main()
         cin >> massiv2[i];
         
     }
-
+    int y=0;
     for (int i = 0; i < 5; i++)
     {
-    cout << massiv2[i] << ' ';
+        cout << massiv2[i] << ' ';
+        y += massiv2[i];
+    }cout << y;
+
+    string massiv[5];
+
+    for (int i = 0; i < 5; i++) 
+    {
+        getline(cin, massiv[i]);
+    }
+
+    for (int i = 0; i < 5; i++) 
+    {
+        cout << massiv[i] << '\n';
     }
 }
