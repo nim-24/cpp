@@ -15,6 +15,11 @@ int main()
     for (int i = 0; i < 5; i++) 
     {
         cin >> massiv2[i];
-        cout << massiv2[i]<<endl;
+        
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+    cout << massiv2[i] << ' ';
     }
 }
